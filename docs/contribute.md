@@ -1,0 +1,1 @@
+期待您的 [star](https://github.com/Xiaoleng123/large-screen)，有疑问欢迎提 [issue](https://github.com/Xiaoleng123/large-screen/issues)，解答后会提炼出其中涉及的知识点补充到文档。有好的意见或建议欢迎 [issue](https://github.com/Xiaoleng123/large-screen/issues) 或 [Pull Request](https://github.com/Xiaoleng123/large-screen/pulls) 。
