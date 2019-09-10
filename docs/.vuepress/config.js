@@ -6,6 +6,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: './src/images/icons/logo.png' }, true] // 设置图标
   ],
+  base: '/large-screen/',
   dest: path.resolve('./dist'),
   evergreen: true,
   themeConfig: {

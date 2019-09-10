@@ -1,4 +1,4 @@
-**访问网址：** [大屏文档](https://xiaoleng123.github.io/large-screen)
+**访问网址：** [大屏开发入门指南](https://xiaoleng123.github.io/large-screen/)
 
 **开发：** `npm run dev`
 
