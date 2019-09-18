@@ -7,6 +7,8 @@
 
 直接使用这些底层技术的 API 略显繁琐，社区有一些流行的基础绘图库，对这些底层技术进行轻量对封装。SVG 的有 [SVG](https://svgjs.com/)、[Snap](http://snapsvg.io)、[Raphaël](https://github.com/DmitryBaranovskiy/raphael) 等，Canvas 2D 的有 [zrender](https://ecomfe.github.io/zrender-doc/public/)、[ocanvas](http://ocanvas.org/)、[EaselJS](https://www.createjs.com/docs/easeljs/modules/EaselJS.html)、[PixiJS](https://www.pixijs.com/) 等。
 
+更多 Canvas 与 SVG 的对比分析参考：[选择 Canvas 还是 SVG](https://www.yuque.com/antv/g2-docs/tutorial-renderers)
+
 ## WebGIS
 ### 基础名词
 * [地图](https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%9B%BE)
