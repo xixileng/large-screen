@@ -96,12 +96,20 @@ GLSL、shader、分形、相变、光的衍射 -->
 
 **js计算：**
 ```js
+// 方法1：监听 resize 更改 font-size
+const baseFontSize = 16;
+const baseWidth = 1920;
 function initRem() {
-  const radio = document.documentElement.clientWidth / 1920;
-  document.documentElement.style.fontSize = `${Math.round(16 * radio)}px`;
+  const radio = document.documentElement.clientWidth / baseWidth;
+  document.documentElement.style.fontSize = `${Math.round(baseFontSize * radio)}px`;
 }
 initRem()
 window.addEventListener('resize', initRem);
+
+// 方法2：直接使用 vw 设置 font-size
+const baseFontSize = 16;
+const baseWidth = 1920;
+document.documentElement.style.fontSize = `${(baseFontSize / baseWidth) * 100}vw`;
 ```
 为什么要用 width/1920 而非 height/1080 呢？因为在常规操作习惯下，高度发生变化时可以很方便的使用滚动条进行操作，但横向的滚动条则没那么好用，因此最好选择通过宽度进行计算。
 
